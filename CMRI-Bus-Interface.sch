@@ -1800,105 +1800,6 @@ chip</description>
 <hole x="5.08" y="3.81" drill="3.1"/>
 <hole x="43.98" y="3.81" drill="3.1"/>
 </package>
-<package name="BOARD-DINRAIL-3.17INX8CM">
-<wire x1="2.5" y1="10.16" x2="8" y2="10.16" width="0" layer="20"/>
-<wire x1="-2" y1="10.16" x2="83.5" y2="10.16" width="0.3048" layer="46"/>
-<wire x1="73.5" y1="10.16" x2="77.679971875" y2="10.16" width="0" layer="20"/>
-<wire x1="77.679971875" y1="10.16" x2="80.322" y2="12.66" width="0" layer="20" curve="90"/>
-<wire x1="80.322" y1="12.66" x2="80.322" y2="88.138" width="0" layer="20"/>
-<wire x1="80.322" y1="88.138" x2="77.679971875" y2="90.678" width="0" layer="20" curve="90"/>
-<wire x1="77.679971875" y1="90.678" x2="72.5" y2="90.678" width="0" layer="20"/>
-<wire x1="82.5" y1="90.678" x2="-3" y2="90.678" width="0.3048" layer="46"/>
-<wire x1="7" y1="90.678" x2="2.5" y2="90.678" width="0" layer="20"/>
-<wire x1="2.5" y1="90.678" x2="0" y2="87.63" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="87.63" x2="0" y2="12.66" width="0" layer="20"/>
-<wire x1="0" y1="12.66" x2="2.5" y2="10.16" width="0" layer="20" curve="90"/>
-<hole x="75.242" y="15.24" drill="4"/>
-<hole x="5.08" y="85.344" drill="4"/>
-<hole x="75.242" y="85.344" drill="4"/>
-<hole x="5.08" y="15.24" drill="4"/>
-<dimension x1="82.1" y1="90.678" x2="82.1" y2="10.16" x3="84.64" y3="50.419" textsize="0.8128" layer="47" dtype="vertical" unit="inch"/>
-<dimension x1="80.5" y1="90.17" x2="0" y2="90.17" x3="40.25" y3="102.71" textsize="0.8128" layer="47" dtype="horizontal" width="0.127"/>
-<text x="82.57" y="102.71" size="1.016" layer="47">mm</text>
-<text x="84.64" y="52.07" size="1.016" layer="47" rot="R90">"</text>
-<wire x1="80.18" y1="90.805" x2="69.75" y2="90.805" width="0.127" layer="48"/>
-<wire x1="69.75" y1="90.805" x2="69.75" y2="50.165" width="0.127" layer="48"/>
-<wire x1="69.75" y1="50.165" x2="80.18" y2="50.165" width="0.127" layer="48"/>
-<wire x1="80.18" y1="50.165" x2="80.18" y2="90.805" width="0.127" layer="48"/>
-<text x="82.07" y="52.705" size="1.27" layer="48" rot="R90">name</text>
-<text x="24.45" y="2.54" size="1.27" layer="48" font="vector">3.17" Tyco Rail 8cm Template</text>
-<circle x="5.08" y="85.344" radius="2.83980625" width="0.127" layer="41"/>
-<circle x="5.08" y="85.344" radius="2.83980625" width="0.127" layer="42"/>
-<circle x="75.242" y="15.24" radius="2.83980625" width="0.127" layer="42"/>
-<circle x="75.242" y="15.24" radius="2.83980625" width="0.127" layer="41"/>
-<circle x="75.242" y="85.344" radius="2.83980625" width="0.127" layer="42"/>
-<circle x="75.242" y="85.344" radius="2.83980625" width="0.127" layer="41"/>
-<circle x="5.08" y="15.24" radius="2.83980625" width="0.127" layer="42"/>
-<circle x="5.08" y="15.24" radius="2.83980625" width="0.127" layer="41"/>
-<rectangle x1="0.5" y1="81.28" x2="80.5" y2="90.678" layer="40"/>
-<rectangle x1="0.5" y1="86.36" x2="80.5" y2="90.678" layer="39"/>
-<rectangle x1="0.5" y1="10.16" x2="80.5" y2="19.558" layer="40"/>
-<rectangle x1="0.5" y1="10.16" x2="80.5" y2="14.478" layer="39"/>
-<smd name="1" x="1.905" y="12.065" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
-<polygon width="0.127" layer="29">
-<vertex x="0.905" y="12.065" curve="90"/>
-<vertex x="1.905" y="11.065" curve="90"/>
-<vertex x="2.905" y="12.065" curve="90"/>
-<vertex x="1.905" y="13.065" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="0.905" y="12.065" curve="90"/>
-<vertex x="1.905" y="11.065" curve="90"/>
-<vertex x="2.905" y="12.065" curve="90"/>
-<vertex x="1.905" y="13.065" curve="90"/>
-</polygon>
-<smd name="2" x="78.29" y="12.065" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
-<polygon width="0.127" layer="29">
-<vertex x="77.29" y="12.065" curve="90"/>
-<vertex x="78.29" y="11.065" curve="90"/>
-<vertex x="79.29" y="12.065" curve="90"/>
-<vertex x="78.29" y="13.065" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="77.29" y="12.065" curve="90"/>
-<vertex x="78.29" y="11.065" curve="90"/>
-<vertex x="79.29" y="12.065" curve="90"/>
-<vertex x="78.29" y="13.065" curve="90"/>
-</polygon>
-<smd name="3" x="1.905" y="88.9" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
-<polygon width="0.127" layer="29">
-<vertex x="0.905" y="88.9" curve="90"/>
-<vertex x="1.905" y="87.9" curve="90"/>
-<vertex x="2.905" y="88.9" curve="90"/>
-<vertex x="1.905" y="89.9" curve="90"/>
-</polygon>
-<polygon width="0.127" layer="41">
-<vertex x="0.905" y="88.9" curve="90"/>
-<vertex x="1.905" y="87.9" curve="90"/>
-<vertex x="2.905" y="88.9" curve="90"/>
-<vertex x="1.905" y="89.9" curve="90"/>
-</polygon>
-<wire x1="0" y1="100" x2="80.5" y2="100" width="0.127" layer="20"/>
-<wire x1="80.5" y1="100" x2="80.5" y2="93.73" width="0.127" layer="20"/>
-<wire x1="80.5" y1="93.73" x2="72.5" y2="93.73" width="0.127" layer="20"/>
-<wire x1="72.5" y1="93.73" x2="72.5" y2="90.678" width="0.127" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="93.73" width="0.127" layer="20"/>
-<wire x1="0" y1="93.73" x2="7" y2="93.73" width="0.127" layer="20"/>
-<wire x1="7" y1="93.73" x2="7" y2="90.678" width="0.127" layer="20"/>
-<wire x1="80.5" y1="0" x2="0" y2="0" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="7.54" width="0.127" layer="20"/>
-<wire x1="0" y1="7.54" x2="8" y2="7.54" width="0.127" layer="20"/>
-<wire x1="8" y1="7.54" x2="8" y2="10.16" width="0.127" layer="20"/>
-<wire x1="80.5" y1="0" x2="80.5" y2="7.54" width="0.127" layer="20"/>
-<wire x1="80.5" y1="7.54" x2="73.5" y2="7.54" width="0.127" layer="20"/>
-<wire x1="73.5" y1="7.54" x2="73.5" y2="10.16" width="0.127" layer="20"/>
-<text x="-16.54" y="90" size="1.6764" layer="46" font="vector">V-Groove</text>
-<text x="-15.54" y="10" size="1.6764" layer="46" font="vector">V-Groove</text>
-<hole x="5.08" y="96.52" drill="3.1"/>
-<hole x="75.75" y="96.52" drill="3.1"/>
-<hole x="5.08" y="3.81" drill="3.1"/>
-<hole x="74.48" y="3.81" drill="3.1"/>
-</package>
 <package name="BOARD-DINRAIL-3.17INX7CM">
 <wire x1="2.5" y1="10.16" x2="8" y2="10.16" width="0" layer="20"/>
 <wire x1="-2" y1="10.16" x2="73" y2="10.16" width="0.3048" layer="46"/>
@@ -2532,16 +2433,20 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <pad name="5" x="7.62" y="0" drill="1.2" diameter="2.032" shape="square" rot="R180"/>
 <text x="-5.08" y="2.54" size="0.4064" layer="25" rot="R180">&gt;NAME</text>
 <text x="-1.27" y="2.54" size="0.4064" layer="27" rot="R180">&gt;VALUE</text>
-<text x="-5.08" y="5.08" size="1.27" layer="51" font="vector" rot="R180">R+</text>
+<text x="-1.27" y="6.985" size="1.27" layer="51" font="vector" rot="R180">^
+O+</text>
 <text x="-6.985" y="-2.54" size="0.8128" layer="51" font="vector">1</text>
 <text x="-3.175" y="-2.54" size="0.8128" layer="51" font="vector">2</text>
 <text x="0" y="-2.54" size="0.8128" layer="51" font="vector">3</text>
 <text x="3.81" y="-2.54" size="0.8128" layer="51" font="vector">4</text>
 <text x="6.985" y="-2.54" size="0.8128" layer="51" font="vector">5</text>
-<text x="-1.27" y="5.08" size="1.27" layer="51" font="vector" rot="R180">R-</text>
-<text x="2.54" y="5.08" size="1.27" layer="51" font="vector" rot="R180">T+</text>
-<text x="5.715" y="5.08" size="1.27" layer="51" font="vector" rot="R180">T-</text>
-<text x="10.16" y="5.08" size="1.016" layer="51" font="vector" rot="R180">SHLD</text>
+<text x="-5.08" y="6.985" size="1.27" layer="51" font="vector" rot="R180">^
+O-</text>
+<text x="5.08" y="6.985" size="1.27" layer="51" font="vector" rot="R180">v
+I+</text>
+<text x="1.905" y="6.985" size="1.27" layer="51" font="vector" rot="R180">v
+I-</text>
+<text x="10.16" y="5.715" size="1.016" layer="51" font="vector" rot="R180">SHLD</text>
 </package>
 <package name="LED5MM">
 <description>LED 5 mm, round</description>
@@ -2960,6 +2865,124 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 <wire x1="-5.08" y1="2.921" x2="-5.08" y2="1.016" width="0.2032" layer="21"/>
 <wire x1="-5.08" y1="-2.921" x2="-5.08" y2="-1.016" width="0.2032" layer="21"/>
 <wire x1="-5.08" y1="-1.016" x2="-5.08" y2="1.016" width="0.2032" layer="21" curve="180"/>
+</package>
+<package name="BOARD-DINRAIL-3.17INX8CM">
+<wire x1="2.5" y1="10.16" x2="8" y2="10.16" width="0" layer="20"/>
+<wire x1="-2" y1="10.16" x2="83.5" y2="10.16" width="0.3048" layer="46"/>
+<wire x1="73.5" y1="10.16" x2="77.679971875" y2="10.16" width="0" layer="20"/>
+<wire x1="77.679971875" y1="10.16" x2="80.322" y2="12.66" width="0" layer="20" curve="90"/>
+<wire x1="80.322" y1="12.66" x2="80.322" y2="88.138" width="0" layer="20"/>
+<wire x1="80.322" y1="88.138" x2="77.679971875" y2="90.678" width="0" layer="20" curve="90"/>
+<wire x1="77.679971875" y1="90.678" x2="72.5" y2="90.678" width="0" layer="20"/>
+<wire x1="82.5" y1="90.678" x2="-3" y2="90.678" width="0.3048" layer="46"/>
+<wire x1="7" y1="90.678" x2="2.5" y2="90.678" width="0" layer="20"/>
+<wire x1="2.5" y1="90.678" x2="0" y2="87.63" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="87.63" x2="0" y2="12.66" width="0" layer="20"/>
+<wire x1="0" y1="12.66" x2="2.5" y2="10.16" width="0" layer="20" curve="90"/>
+<hole x="75.242" y="15.24" drill="4"/>
+<hole x="5.08" y="85.344" drill="4"/>
+<hole x="75.242" y="85.344" drill="4"/>
+<hole x="5.08" y="15.24" drill="4"/>
+<dimension x1="82.1" y1="90.678" x2="82.1" y2="10.16" x3="84.64" y3="50.419" textsize="0.8128" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="80.5" y1="90.17" x2="0" y2="90.17" x3="40.25" y3="102.71" textsize="0.8128" layer="47" dtype="horizontal" width="0.127"/>
+<text x="82.57" y="102.71" size="1.016" layer="47">mm</text>
+<text x="84.64" y="52.07" size="1.016" layer="47" rot="R90">"</text>
+<wire x1="80.18" y1="90.805" x2="69.75" y2="90.805" width="0.127" layer="48"/>
+<wire x1="69.75" y1="90.805" x2="69.75" y2="50.165" width="0.127" layer="48"/>
+<wire x1="69.75" y1="50.165" x2="80.18" y2="50.165" width="0.127" layer="48"/>
+<wire x1="80.18" y1="50.165" x2="80.18" y2="90.805" width="0.127" layer="48"/>
+<text x="82.07" y="52.705" size="1.27" layer="48" rot="R90">name</text>
+<text x="24.45" y="2.54" size="1.27" layer="48" font="vector">3.17" Tyco Rail 8cm Template</text>
+<circle x="5.08" y="85.344" radius="2.83980625" width="0.127" layer="41"/>
+<circle x="5.08" y="85.344" radius="2.83980625" width="0.127" layer="42"/>
+<circle x="75.242" y="15.24" radius="2.83980625" width="0.127" layer="42"/>
+<circle x="75.242" y="15.24" radius="2.83980625" width="0.127" layer="41"/>
+<circle x="75.242" y="85.344" radius="2.83980625" width="0.127" layer="42"/>
+<circle x="75.242" y="85.344" radius="2.83980625" width="0.127" layer="41"/>
+<circle x="5.08" y="15.24" radius="2.83980625" width="0.127" layer="42"/>
+<circle x="5.08" y="15.24" radius="2.83980625" width="0.127" layer="41"/>
+<rectangle x1="0.5" y1="81.28" x2="80.5" y2="90.678" layer="40"/>
+<rectangle x1="0.5" y1="86.36" x2="80.5" y2="90.678" layer="39"/>
+<rectangle x1="0.5" y1="10.16" x2="80.5" y2="19.558" layer="40"/>
+<rectangle x1="0.5" y1="10.16" x2="80.5" y2="14.478" layer="39"/>
+<wire x1="0" y1="100" x2="80.5" y2="100" width="0.127" layer="20"/>
+<wire x1="80.5" y1="100" x2="80.5" y2="93.73" width="0.127" layer="20"/>
+<wire x1="80.5" y1="93.73" x2="72.5" y2="93.73" width="0.127" layer="20"/>
+<wire x1="72.5" y1="93.73" x2="72.5" y2="90.678" width="0.127" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="93.73" width="0.127" layer="20"/>
+<wire x1="0" y1="93.73" x2="7" y2="93.73" width="0.127" layer="20"/>
+<wire x1="7" y1="93.73" x2="7" y2="90.678" width="0.127" layer="20"/>
+<wire x1="80.5" y1="0" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="7.54" width="0.127" layer="20"/>
+<wire x1="0" y1="7.54" x2="8" y2="7.54" width="0.127" layer="20"/>
+<wire x1="8" y1="7.54" x2="8" y2="10.16" width="0.127" layer="20"/>
+<wire x1="80.5" y1="0" x2="80.5" y2="7.54" width="0.127" layer="20"/>
+<wire x1="80.5" y1="7.54" x2="73.5" y2="7.54" width="0.127" layer="20"/>
+<wire x1="73.5" y1="7.54" x2="73.5" y2="10.16" width="0.127" layer="20"/>
+<text x="-16.54" y="90" size="1.6764" layer="46" font="vector">V-Groove</text>
+<text x="-15.54" y="10" size="1.6764" layer="46" font="vector">V-Groove</text>
+<hole x="5.08" y="96.52" drill="3.1"/>
+<hole x="75.75" y="96.52" drill="3.1"/>
+<hole x="5.08" y="3.81" drill="3.1"/>
+<hole x="74.48" y="3.81" drill="3.1"/>
+</package>
+<package name="BOARD-DINRAIL-2.7IN-5CM">
+<wire x1="2.5" y1="0" x2="47.179971875" y2="0" width="0" layer="20"/>
+<wire x1="47.179971875" y1="0" x2="49.822" y2="2.5" width="0" layer="20" curve="90"/>
+<wire x1="49.822" y1="2.5" x2="49.822" y2="66.04" width="0" layer="20"/>
+<wire x1="49.822" y1="66.04" x2="47.179971875" y2="68.834" width="0" layer="20" curve="90"/>
+<wire x1="47.179971875" y1="68.834" x2="2.5" y2="68.834" width="0" layer="20"/>
+<wire x1="2.5" y1="68.834" x2="0" y2="66.04" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="66.04" x2="0" y2="2.5" width="0" layer="20"/>
+<wire x1="0" y1="2.5" x2="2.5" y2="0" width="0" layer="20" curve="90"/>
+<hole x="44.742" y="5.08" drill="4"/>
+<hole x="5.08" y="63.754" drill="4"/>
+<hole x="44.742" y="63.754" drill="4"/>
+<hole x="5.08" y="5.08" drill="4"/>
+<dimension x1="51.6" y1="68.834" x2="51.6" y2="0" x3="54.14" y3="34.417" textsize="0.8128" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="50" y1="68.58" x2="0" y2="68.58" x3="25" y3="71.12" textsize="0.8128" layer="47" dtype="horizontal" width="0.127"/>
+<text x="32.07" y="71.12" size="1.016" layer="47">mm</text>
+<text x="54.14" y="35.56" size="1.016" layer="47" rot="R90">"</text>
+<polygon width="1.27" layer="39">
+<vertex x="0" y="67.31"/>
+<vertex x="0" y="66.04" curve="90"/>
+<vertex x="1.27" y="64.77"/>
+<vertex x="49.06" y="64.77" curve="90"/>
+<vertex x="50.33" y="66.04"/>
+<vertex x="50.33" y="67.31" curve="90"/>
+<vertex x="49.06" y="68.58"/>
+<vertex x="1.27" y="68.58" curve="90"/>
+</polygon>
+<polygon width="1.27" layer="39">
+<vertex x="0" y="2.54"/>
+<vertex x="0" y="1.27" curve="90"/>
+<vertex x="1.27" y="0"/>
+<vertex x="49.06" y="0" curve="90"/>
+<vertex x="50.33" y="1.27"/>
+<vertex x="50.33" y="2.54" curve="90"/>
+<vertex x="49.06" y="3.81"/>
+<vertex x="1.27" y="3.81" curve="90"/>
+</polygon>
+<polygon width="1.27" layer="40">
+<vertex x="0" y="67.31"/>
+<vertex x="0" y="63.5" curve="90"/>
+<vertex x="1.27" y="62.23"/>
+<vertex x="49.06" y="62.23" curve="90"/>
+<vertex x="50.33" y="63.5"/>
+<vertex x="50.33" y="67.31" curve="90"/>
+<vertex x="49.06" y="68.58"/>
+<vertex x="1.27" y="68.58" curve="90"/>
+</polygon>
+<polygon width="1.27" layer="40">
+<vertex x="0" y="5.08"/>
+<vertex x="0" y="1.27" curve="90"/>
+<vertex x="1.27" y="0"/>
+<vertex x="49.06" y="0" curve="90"/>
+<vertex x="50.33" y="1.27"/>
+<vertex x="50.33" y="5.08" curve="90"/>
+<vertex x="49.06" y="6.35"/>
+<vertex x="1.27" y="6.35" curve="90"/>
+</polygon>
 </package>
 </packages>
 <symbols>
@@ -3390,6 +3413,11 @@ Boilerplate</text>
 </technologies>
 </device>
 <device name="69X80" package="BOARD-DINRAIL-2.7IN-8CM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="69X50" package="BOARD-DINRAIL-2.7IN-5CM">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4053,12 +4081,12 @@ Source: MAX3465-MAX3469.pdf</description>
 <part name="C5" library="SPCoast" deviceset="CAP*" device="PTH2" value=".01uF"/>
 <part name="R2" library="SPCoast" deviceset="R*" device="PTH03" value="470"/>
 <part name="GND9" library="SparkFun" deviceset="GND" device=""/>
-<part name="CMRINETTOP" library="SPCoast" deviceset="CONNECTOR-CMRINET" device="3.5MM"/>
-<part name="RS485IN1" library="SPCoast" deviceset="CONNECTOR-CMRINET" device=".156" value="CMRInet Hdr Rt"/>
-<part name="RS485IN2" library="SPCoast" deviceset="CONNECTOR-CMRINET" device=".156" value="CMRInet Hdr Top"/>
+<part name="CMRINET2" library="SPCoast" deviceset="CONNECTOR-CMRINET" device="3.5MM" value="CMRInet"/>
+<part name="CMRINET3" library="SPCoast" deviceset="CONNECTOR-CMRINET" device=".156" value="CMRInet"/>
+<part name="CMRINET4" library="SPCoast" deviceset="CONNECTOR-CMRINET" device=".156" value="CMRInet"/>
 <part name="TX" library="SPCoast" deviceset="LED*" device="LED5MM"/>
 <part name="BOARD1" library="SPCoast" deviceset="BOARD" device="69X70" value="BOARD69X70"/>
-<part name="CMRINETTOP1" library="SPCoast" deviceset="CONNECTOR-CMRINET" device="3.5MM"/>
+<part name="CMRINET1" library="SPCoast" deviceset="CONNECTOR-CMRINET" device="3.5MM" value="CMRInet"/>
 <part name="CMRI-IO" library="SPCoast" deviceset="CONNECTOR-M05" device="CMRI"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+3" library="SparkFun" deviceset="VCC" device=""/>
@@ -4080,10 +4108,10 @@ Source: MAX3465-MAX3469.pdf</description>
 <text x="152.4" y="104.14" size="1.778" layer="95">MAX489</text>
 <text x="147.32" y="149.86" size="1.778" layer="95">RS-485 Interface</text>
 <text x="15.24" y="129.54" size="2.1844" layer="97">Notes:</text>
-<text x="226.06" y="99.06" size="1.4224" layer="95">IN+</text>
-<text x="226.06" y="101.6" size="1.4224" layer="95">IN-</text>
-<text x="226.06" y="104.14" size="1.4224" layer="95">OUT+</text>
-<text x="226.06" y="106.68" size="1.4224" layer="95">OUT-</text>
+<text x="228.6" y="99.06" size="1.4224" layer="95">IN+</text>
+<text x="228.6" y="101.6" size="1.4224" layer="95">IN-</text>
+<text x="228.6" y="104.14" size="1.4224" layer="95">OUT+</text>
+<text x="228.6" y="106.68" size="1.4224" layer="95">OUT-</text>
 <text x="147.32" y="144.78" size="1.778" layer="95" rot="R180">nc</text>
 <text x="147.32" y="109.22" size="1.778" layer="95" rot="R180">nc</text>
 <text x="17.78" y="121.92" size="1.778" layer="97">1. Chuck's AutoRTS circuit can be used instead of 
@@ -4099,17 +4127,17 @@ Choose R1/C1 values based on desired line speed</text>
 <text x="22.86" y="101.6" size="1.778" layer="97"> 57600   2000  0.1 uF</text>
 <text x="22.86" y="99.06" size="1.778" layer="97"> 115200  1000  0.1 uF</text>
 <text x="22.86" y="114.3" size="1.778" layer="97"> BPS      R1    C1</text>
-<text x="226.06" y="162.56" size="1.4224" layer="95">IN+</text>
-<text x="226.06" y="165.1" size="1.4224" layer="95">IN-</text>
-<text x="226.06" y="167.64" size="1.4224" layer="95">OUT+</text>
-<text x="226.06" y="170.18" size="1.4224" layer="95">OUT-</text>
-<text x="226.06" y="160.02" size="1.4224" layer="95">Shield</text>
+<text x="228.6" y="162.56" size="1.4224" layer="95">IN+</text>
+<text x="228.6" y="165.1" size="1.4224" layer="95">IN-</text>
+<text x="228.6" y="167.64" size="1.4224" layer="95">OUT+</text>
+<text x="228.6" y="170.18" size="1.4224" layer="95">OUT-</text>
+<text x="228.6" y="160.02" size="1.4224" layer="95">Shield</text>
 <text x="228.6" y="76.2" size="1.4224" layer="95">Shield</text>
 <text x="228.6" y="86.36" size="1.4224" layer="95">OUT-</text>
 <text x="228.6" y="83.82" size="1.4224" layer="95">OUT+</text>
 <text x="228.6" y="81.28" size="1.4224" layer="95">IN-</text>
 <text x="228.6" y="78.74" size="1.4224" layer="95">IN+</text>
-<text x="226.06" y="96.52" size="1.4224" layer="95">Shield</text>
+<text x="228.6" y="96.52" size="1.4224" layer="95">Shield</text>
 <text x="210.82" y="48.26" size="1.778" layer="97" font="vector">CAT-5
 ----------
 1  O-  Orange
@@ -4158,21 +4186,21 @@ speed range with 0.1uF and 12k</text>
 <attribute name="VALUE" x="132.842" y="140.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND9" gate="1" x="139.7" y="152.4"/>
-<instance part="CMRINETTOP" gate="G$1" x="223.52" y="142.24" smashed="yes" rot="MR180">
+<instance part="CMRINET2" gate="G$1" x="223.52" y="142.24" smashed="yes" rot="MR180">
 <attribute name="NAME" x="218.44" y="136.398" size="1.778" layer="95" rot="MR180"/>
 </instance>
-<instance part="RS485IN1" gate="G$1" x="220.98" y="101.6" smashed="yes" rot="R180">
-<attribute name="VALUE" x="233.68" y="93.98" size="1.778" layer="96" rot="R180"/>
+<instance part="CMRINET3" gate="G$1" x="223.52" y="99.06" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="236.22" y="93.98" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="RS485IN2" gate="G$1" x="218.44" y="165.1" smashed="yes" rot="R180">
-<attribute name="VALUE" x="231.14" y="175.26" size="1.778" layer="96" rot="R180"/>
+<instance part="CMRINET4" gate="G$1" x="222.25" y="162.56" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="236.22" y="156.21" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="TX" gate="LED" x="129.54" y="154.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="125.984" y="159.512" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="123.825" y="159.512" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="BOARD1" gate="B" x="238.76" y="33.02"/>
-<instance part="CMRINETTOP1" gate="G$1" x="223.52" y="78.74" smashed="yes" rot="MR180">
+<instance part="CMRINET1" gate="G$1" x="223.52" y="78.74" smashed="yes" rot="MR180">
 <attribute name="NAME" x="218.44" y="72.898" size="1.778" layer="95" rot="MR180"/>
 </instance>
 <instance part="CMRI-IO" gate="G$1" x="121.92" y="81.28"/>
@@ -4339,49 +4367,49 @@ speed range with 0.1uF and 12k</text>
 <pinref part="TX" gate="LED" pin="A"/>
 </segment>
 </net>
-<net name="N$36" class="0">
+<net name="IN+" class="0">
 <segment>
 <wire x1="208.28" y1="162.56" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="142.24" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="124.46" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="99.06" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="RS485IN1" gate="G$1" pin="4"/>
+<pinref part="CMRINET3" gate="G$1" pin="4"/>
 <wire x1="217.17" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="227.33" y1="101.6" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="RS485IN2" gate="G$1" pin="4"/>
+<wire x1="217.17" y1="99.06" x2="208.28" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="CMRINET4" gate="G$1" pin="4"/>
 <wire x1="217.17" y1="142.24" x2="208.28" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="224.79" y1="165.1" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="CMRINETTOP" gate="G$1" pin="4"/>
+<wire x1="215.9" y1="162.56" x2="208.28" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="CMRINET2" gate="G$1" pin="4"/>
 <junction x="208.28" y="142.24"/>
 <junction x="208.28" y="99.06"/>
 <wire x1="208.28" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="A"/>
 <junction x="208.28" y="124.46"/>
-<pinref part="CMRINETTOP1" gate="G$1" pin="4"/>
+<pinref part="CMRINET1" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="N$56" class="0">
+<net name="IN-" class="0">
 <segment>
 <wire x1="205.74" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="B"/>
 <wire x1="205.74" y1="144.78" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="119.38" x2="205.74" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="101.6" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="RS485IN1" gate="G$1" pin="3"/>
+<pinref part="CMRINET3" gate="G$1" pin="3"/>
 <wire x1="217.17" y1="81.28" x2="205.74" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="227.33" y1="104.14" x2="205.74" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="CMRINETTOP" gate="G$1" pin="3"/>
+<wire x1="217.17" y1="101.6" x2="205.74" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="CMRINET2" gate="G$1" pin="3"/>
 <wire x1="217.17" y1="144.78" x2="205.74" y2="144.78" width="0.1524" layer="91"/>
 <junction x="205.74" y="101.6"/>
 <junction x="205.74" y="119.38"/>
-<pinref part="RS485IN2" gate="G$1" pin="3"/>
+<pinref part="CMRINET4" gate="G$1" pin="3"/>
 <wire x1="205.74" y1="144.78" x2="205.74" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="205.74" y1="165.1" x2="224.79" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="165.1" x2="215.9" y2="165.1" width="0.1524" layer="91"/>
 <junction x="205.74" y="144.78"/>
-<pinref part="CMRINETTOP1" gate="G$1" pin="3"/>
+<pinref part="CMRINET1" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="N$59" class="0">
+<net name="OUT+" class="0">
 <segment>
 <wire x1="170.18" y1="134.62" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="Y"/>
@@ -4389,20 +4417,20 @@ speed range with 0.1uF and 12k</text>
 <wire x1="203.2" y1="147.32" x2="203.2" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="134.62" x2="203.2" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="104.14" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="RS485IN1" gate="G$1" pin="2"/>
+<pinref part="CMRINET3" gate="G$1" pin="2"/>
 <wire x1="217.17" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="227.33" y1="106.68" x2="203.2" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="RS485IN2" gate="G$1" pin="2"/>
+<wire x1="217.17" y1="104.14" x2="203.2" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="CMRINET4" gate="G$1" pin="2"/>
 <wire x1="217.17" y1="147.32" x2="203.2" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="224.79" y1="170.18" x2="203.2" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="CMRINETTOP" gate="G$1" pin="2"/>
+<wire x1="215.9" y1="167.64" x2="203.2" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="CMRINET2" gate="G$1" pin="2"/>
 <junction x="203.2" y="147.32"/>
 <junction x="203.2" y="104.14"/>
 <junction x="203.2" y="134.62"/>
-<pinref part="CMRINETTOP1" gate="G$1" pin="2"/>
+<pinref part="CMRINET1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$60" class="0">
+<net name="OUT-" class="0">
 <segment>
 <wire x1="170.18" y1="129.54" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="Z"/>
@@ -4410,33 +4438,34 @@ speed range with 0.1uF and 12k</text>
 <wire x1="200.66" y1="149.86" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="129.54" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="106.68" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="RS485IN1" gate="G$1" pin="1"/>
+<pinref part="CMRINET3" gate="G$1" pin="1"/>
 <wire x1="217.17" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="227.33" y1="109.22" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="RS485IN2" gate="G$1" pin="1"/>
+<wire x1="217.17" y1="106.68" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="CMRINET4" gate="G$1" pin="1"/>
 <wire x1="217.17" y1="149.86" x2="200.66" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="224.79" y1="172.72" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
-<pinref part="CMRINETTOP" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="170.18" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="CMRINET2" gate="G$1" pin="1"/>
 <junction x="200.66" y="149.86"/>
 <junction x="200.66" y="106.68"/>
 <junction x="200.66" y="129.54"/>
-<pinref part="CMRINETTOP1" gate="G$1" pin="1"/>
+<pinref part="CMRINET1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SHIELD" class="0">
 <segment>
-<pinref part="RS485IN2" gate="G$1" pin="5"/>
-<wire x1="224.79" y1="162.56" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="CMRINET4" gate="G$1" pin="5"/>
+<wire x1="215.9" y1="160.02" x2="210.82" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="160.02" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="139.7" x2="210.82" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="96.52" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="76.2" x2="217.17" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="RS485IN1" gate="G$1" pin="5"/>
-<wire x1="227.33" y1="99.06" x2="210.82" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="CMRINETTOP" gate="G$1" pin="5"/>
+<pinref part="CMRINET3" gate="G$1" pin="5"/>
+<wire x1="217.17" y1="96.52" x2="210.82" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="CMRINET2" gate="G$1" pin="5"/>
 <wire x1="217.17" y1="139.7" x2="210.82" y2="139.7" width="0.1524" layer="91"/>
 <junction x="210.82" y="139.7"/>
 <junction x="210.82" y="96.52"/>
-<pinref part="CMRINETTOP1" gate="G$1" pin="5"/>
+<pinref part="CMRINET1" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="TXEN" class="0">
