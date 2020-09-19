@@ -3,7 +3,7 @@ project: CMRI-Bus-Interface
 designer: John Plocher
 fabricated: no
 fab_date: 
-status: experimental
+status: obsolete
 release: yes
 image_path: CMRI-Bus-Interface-Graphic.png
 tags: [eagle, SPCoast, Adapter, LCB]
